@@ -1,4 +1,6 @@
-
+import streamlit as st
+st.title("Intelligent Sales Forecasting Dashboard")
+st.write("Deployed analytics dashboard")
 
 
 import pandas as pd
@@ -189,7 +191,3 @@ df.to_csv(
 )
 
 print("Cleaned dataset saved.")
-
-import streamlit as st
-st.title("Intelligent Sales Forecasting Dashboard")
-st.write("Deployed analytics dashboard")
